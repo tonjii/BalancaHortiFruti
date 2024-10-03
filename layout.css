@@ -1,0 +1,108 @@
+.custom-button {
+    position: relative;
+    background-color: #f8f9fa; /* Cor de fundo do botão */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none;/* Remove a borda padrão */
+    padding: 40px 40px; /* Adiciona preenchimento interno */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin: 10px;
+    transition: background-color 0.5s;
+}
+
+.custom-button:hover {
+    background-color: #599a57; /* Cor de fundo do botão ao passar o mouse */
+}
+
+html, body {
+    height: 120%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction:row;
+    align-items: center; /*centraliza horizontalmente */
+    justify-content: center; /* centraliza verticalmente */
+    min-width: 100vh; 
+}
+
+.custom-body 
+{
+        background-image: url('fundo.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative; /* Para conter elementos filhos com position:absolute */
+        height: 100vh; /* O plano de fundo cobre a altura total da tela */
+        margin: 0;
+    }
+    
+
+.footer-index
+{
+    background-color: #0c4319;
+    color: #ededed;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+footer {
+    background-color: #0c4319;
+    color: #ededed;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+
+.custom-button-adm {
+    background-color: #f8f9fa; /* Cor de fundo do botão */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none;/* Remove a borda padrão */
+    padding: 5px 10px; /* Adiciona preenchimento interno menor para tornar o botão discreto */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium; /* Fonte menor */
+    position: absolute; /* Posicionamento absoluto */
+    top: 10px; /* Alinhado no topo */
+    right: 10px; /* Alinhado à direita */
+    transition: background-color 0.5s;
+    z-index: 1000; /* Certifica-se de que o botão fique acima de outros elementos */
+}
+
+.custom-button-adm:hover {
+    background-color: red; /* Cor de fundo do botão ao passar o mouse */
+}
+
+button a {
+    text-decoration: none;  
+    color: black;
+}
+
+
+.custom-button-fruta {
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none;/* Remove a borda padrão */
+    padding: 20px 20px; /* Adiciona preenchimento interno */
+    border-radius: 30px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin: 10px;
+    transition: background-color 0.5s;
+}
+
+.custom-button-fruta:hover
+{
+    background-color: #0c4319
+}
